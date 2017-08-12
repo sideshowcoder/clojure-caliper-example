@@ -16,6 +16,12 @@ expected.
 lein run
 ```
 
+## Resources
+
+- [Microbenchmarking with Caliper](http://codingjunkie.net/micro-benchmarking-with-caliper/)
+- [Caliper Source](https://github.com/google/caliper/tree/v0.5-rc1)
+- [Example of using Caliper](https://gist.github.com/codahale/5304067)
+
 ## License
 
 Copyright © 2017 Philipp Fehre
