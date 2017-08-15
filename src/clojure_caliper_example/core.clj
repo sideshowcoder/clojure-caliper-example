@@ -26,3 +26,22 @@
 (defn -timeFibNaive
   [this reps]
   (dotimes [n reps] (fib-naive 30)))
+
+
+
+;; API to built in caliper clojure binding
+;;
+;; (measure fn1 fn2 fn3 ...)
+;;
+;; todo this I can create one subclass of SimpleBenchmark defines 1 function to
+;; time and create multiple proxies each measuring one of the function
+;;
+;; (compare fn1 fn2)
+;;
+;; todo this I can create a simple benchmark inherited class defining 2
+;; functions which get compared
+;;
+;; To get the result I need to reimplement part of the runner to get access to
+;; the result to be returned
+;; https://github.com/google/caliper/blob/v0.5-rc1/caliper/src/main/java/com/google/caliper/Runner.java#L85
+;;
