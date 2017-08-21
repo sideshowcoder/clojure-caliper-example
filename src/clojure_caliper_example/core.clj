@@ -27,8 +27,6 @@
   [this reps]
   (dotimes [n reps] (fib-naive 30)))
 
-
-
 ;; API to built in caliper clojure binding
 ;;
 ;; (measure fn1 fn2 fn3 ...)
