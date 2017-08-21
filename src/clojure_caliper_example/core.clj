@@ -41,7 +41,3 @@
 ;; todo this I can create a simple benchmark inherited class defining 2
 ;; functions which get compared
 ;;
-;; To get the result I need to reimplement part of the runner to get access to
-;; the result to be returned
-;; https://github.com/google/caliper/blob/v0.5-rc1/caliper/src/main/java/com/google/caliper/Runner.java#L85
-;;

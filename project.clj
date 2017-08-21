@@ -6,4 +6,5 @@
   :main clojure-caliper-example.runner
   :aot :all
   :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/data.json "0.2.6"]
                  [com.google.caliper/caliper "0.5-rc1"]])
