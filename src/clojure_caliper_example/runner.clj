@@ -6,10 +6,6 @@
            (com.google.caliper Runner))
   (:gen-class))
 
-(defn -main
-  [& args]
-  (run MyBenchmark))
-
 (defn run
   "Runs a Caliper Benchmark class using the caliper runner. The
   results are printed to stdout, in cider this is the *nrepl-server
@@ -25,3 +21,8 @@
       (with-open [result-json (io/reader result-file-path)]
         (json/read-json result-json))
       (finally (io/delete-file result-file true)))))
+
+(defn -main
+  [& args]
+  (run MyBenchmark))
+

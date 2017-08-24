@@ -3,7 +3,7 @@
   :url "https://github.com/sideshowcoder/clojure-caliper-example"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :main clojure-caliper-example.runner
+  :aliases {"benchmark" ["run" "-m" "clojure-caliper-example.runner"]}
   :aot :all
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/data.json "0.2.6"]
